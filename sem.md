@@ -37,11 +37,12 @@ Many model types have been evaluated:
 - USE standard
 
 
-Sentence embedding average/composition:
+#### Sentence embedding average/composition:
 
 - fasttext (finetuned or not)
 - [flair Emeddings](https://github.com/zalandoresearch/flair/blob/master/resources/docs/TUTORIAL_5_DOCUMENT_EMBEDDINGS.md) finetuned or not
 - [Bert Multilingual](https://github.com/hanxiao/bert-as-service) - finetuned or not
 - [Flair RNN](https://github.com/zalandoresearch/flair/blob/31cc245f45b38dbbc4ddfc0214a2761a45b2b3a9/flair/models/similarity_learning_model.py) (fine-tuned on semantic similarity)
+- seq to seq projection (as in)[search from code] (https://github.blog/2018-09-18-towards-natural-language-semantic-code-search/)
 
 
