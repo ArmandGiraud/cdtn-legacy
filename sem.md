@@ -23,5 +23,12 @@ The querying is performed with [this endpoint](https://github.com/SocialGouv/cod
 
 ### Model Selection:
 
-The selection of this model has been made based on evaluation set made of experts scores of query - documents pairs
+The selection of this model has been made based on evaluation set made of [experts scores of query - documents pairs](https://datafiller.num.social.gouv.fr/)
+
+we generate learning to rank [(letor)](https://github.com/ArmandGiraud/letor_scores) scores based on the slug list returned by:
+1) the semantic algorithm
+2) the semantic + the BM25 deduplicated
+
+
+
 
