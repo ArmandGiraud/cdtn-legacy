@@ -19,3 +19,9 @@ The Preprocessing is identical for indexing and querying (remove stop words - lo
 
 The querying is performed with [this endpoint](https://github.com/SocialGouv/code-du-travail-numerique/blob/master/packages/code-du-travail-nlp/api/search.py)
 
+
+
+### Model Selection:
+
+The selection of this model has been made based on evaluation set made of experts scores of query - documents pairs
+
