@@ -21,7 +21,7 @@ The querying is performed with [this endpoint](https://github.com/SocialGouv/cod
 
 
 
-### Model Selection:
+### Model Selection & Evaluation:
 
 The selection of this model has been made based on evaluation set made of [experts scores of query - documents pairs](https://datafiller.num.social.gouv.fr/)
 
